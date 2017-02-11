@@ -1,0 +1,7 @@
+core\MongoDB_Insert.class
+spring\insert\User.class
+core\MongoDB_Insert2.class
+core\MongoDBConnect.class
+spring\insert\SpringMongoConfig.class
+core\MongoDB_Authentication.class
+core\MongoDB_Update.class

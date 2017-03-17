@@ -14,7 +14,7 @@ public class JsonParserExample {
 			JsonFactory jfactory = new JsonFactory();
 
 			/*** read from file ***/
-			JsonParser jParser = jfactory.createJsonParser(new File("C:\\Users\\kaveti_s\\Desktop\\JSONFIles\\skill.json"));
+			JsonParser jParser = jfactory.createJsonParser(new File("C:\\Users\\smlcodes\\Desktop\\JSONFIles\\skill.json"));
 
 			// loop until token equal to "}"
 			while (jParser.nextToken() != JsonToken.END_OBJECT) {

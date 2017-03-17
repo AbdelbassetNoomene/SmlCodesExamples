@@ -17,7 +17,7 @@ public class TreeModelExample {
 
 			ObjectMapper mapper = new ObjectMapper();
 
-			JsonNode root = mapper.readTree(new File("C:\\Users\\kaveti_s\\Desktop\\JSONFIles\\tree.json"));
+			JsonNode root = mapper.readTree(new File("C:\\Users\\smlcodes\\Desktop\\JSONFIles\\tree.json"));
 
 			// Get id
 			id = root.path("id").asLong();

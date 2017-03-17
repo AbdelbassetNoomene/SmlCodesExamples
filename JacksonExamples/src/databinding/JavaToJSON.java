@@ -21,7 +21,7 @@ public static void main(String[] args) {
 	
 	try{
 	ObjectMapper mapper = new ObjectMapper();
-	mapper.writeValue(new File("C:\\Users\\kaveti_s\\Desktop\\JSONFIles\\skill.json"), studentBo);
+	mapper.writeValue(new File("C:\\Users\\smlcodes\\Desktop\\JSONFIles\\skill.json"), studentBo);
 
 	//Convert object to JSON string
 	String jsonInString = mapper.writeValueAsString(studentBo);

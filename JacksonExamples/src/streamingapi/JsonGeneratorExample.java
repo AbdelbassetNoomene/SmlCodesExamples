@@ -15,7 +15,7 @@ public class JsonGeneratorExample {
 			JsonFactory jfactory = new JsonFactory();
 
 			/*** write to file ***/
-			JsonGenerator jGenerator = jfactory.createJsonGenerator(new File("C:\\Users\\kaveti_s\\Desktop\\JSONFIles\\skill.json"), JsonEncoding.UTF8);
+			JsonGenerator jGenerator = jfactory.createJsonGenerator(new File("C:\\Users\\smlcodes\\Desktop\\JSONFIles\\skill.json"), JsonEncoding.UTF8);
 			jGenerator.writeStartObject(); // {
 
 			jGenerator.writeStringField("name", "Satya"); // "name" : "Satya"
